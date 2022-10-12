@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Teste de teclado</title>
+</head>
+
+<body>
+    <main>
+        <input id="input" type="text" placeholder="Digite qualquer coisa"/>
+        <table class="container">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>keydown</th>
+                    <th>keyup</th>
+                    <th>keypress</th>
+                    <th>input</th>
+                    <th>beforeinput</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="info">charCode:</td>
+                    <td id='keydowncharCode'></td>
+                    <td id='keyupcharCode'></td>
+                    <td id='keypresscharCode'></td>
+                    <td id='inputcharCode'></td>
+                    <td id='beforeinputcharCode'></td>
+                </tr>
+                <tr>
+                    <td class="info">code:</td>
+                    <td id='keydowncode'></td>
+                    <td id='keyupcode'></td>
+                    <td id='keypresscode'></td>
+                    <td id='inputcode'></td>
+                    <td id='beforeinputcode'></td>
+                </tr>
+                <tr>
+                    <td class="info">key:</td>
+                    <td id='keydownkey'></td>
+                    <td id='keyupkey'></td>
+                    <td id='keypresskey'></td>
+                    <td id='inputkey'></td>
+                    <td id='beforeinputkey'></td>
+                </tr>
+                <tr>
+                    <td class="info">keyCode:</td>
+                    <td id='keydownkeyCode'></td>
+                    <td id='keyupkeyCode'></td>
+                    <td id='keypresskeyCode'></td>
+                    <td id='inputkeyCode'></td>
+                    <td id='beforeinputkeyCode'></td>
+                </tr>
+                <tr>
+                    <td class="info">which:</td>
+                    <td id='keydownwhich'></td>
+                    <td id='keyupwhich'></td>
+                    <td id='keypresswhich'></td>
+                    <td id='inputwhich'></td>
+                    <td id='beforeinputwhich'></td>
+                </tr>
+                <tr>
+                    <td class="info">data:</td>
+                    <td id='keydowndata'></td>
+                    <td id='keyupdata'></td>
+                    <td id='keypressdata'></td>
+                    <td id='inputdata'></td>
+                    <td id='beforeinputdata'></td>
+                </tr>
+                <tr>
+                    <td class="info">inputType:</td>
+                    <td id='keydowninputType'></td>
+                    <td id='keyupinputType'></td>
+                    <td id='keypressinputType'></td>
+                    <td id='inputinputType'></td>
+                    <td id='beforeinputinputType'></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
